@@ -1,0 +1,110 @@
+//vairabels
+@import '../../styles/variables.scss';
+.header-container {
+  margin: 0 72px;
+}
+
+#Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1296px;
+  height: 48px;
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    cursor: pointer;
+    color: $primary-text-color;
+  }
+
+  .language-section {
+    display: flex;
+    gap: 8px;
+    width: 65px;
+    height: 24px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    text-transform: uppercase;
+  }
+}
+
+#HeaderLogo {
+  padding: 21px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .trip-area {
+    display: flex;
+    width: 224px;
+    padding-right: 0px;
+    align-items: center;
+    gap: 31.82px;
+    h5 {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+
+  .logo-area {
+    width: 160px;
+    height: 40px;
+    img {
+      width: 100%;
+    }
+  }
+
+  .buttons-area {
+    width: 328px;
+    justify-content: space-between;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    .lucky-button {
+      width: 203px;
+      padding: 12px 24px;
+      border-radius: 24px;
+      background-color: $tourista-blue;
+      color: #fff;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+    }
+
+    .login-button {
+      width: 91px;
+      text-align: center;
+      padding: 9px 24px;
+      border-radius: 24px;
+      background-color: $tourista-blue;
+      color: $tourista-blue;
+      background-color: #fff;
+      border: $tourista-blue 1px solid;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+      // padding: 12px 24px;
+    }
+    
+  }
+}
