@@ -1,0 +1,31 @@
+.expert-wrapper{
+    padding: 0 72px;
+}
+
+#ExpertSection{
+    position: relative;
+    padding-bottom: 120px;
+
+    .queto1{
+        position: absolute;
+        left: 71px;
+        top: 131px;
+        width: 180px;
+      } 
+    .expert-image-section{
+        width: 1296px;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        
+    }
+    .expert-heading {
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+      }
+      
+}

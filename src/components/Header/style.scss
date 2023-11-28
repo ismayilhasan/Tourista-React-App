@@ -70,11 +70,11 @@
 
   .buttons-area {
     width: 328px;
-    justify-content: space-between;
+    justify-content: start;
     height: 48px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 
     .lucky-button {
       width: 203px;
@@ -103,6 +103,12 @@
       font-style: normal;
       font-weight: 600;
       line-height: 24px;
+      transition: .4s;
+
+      &:hover{
+        background-color: $tourista-blue;
+        color: #fff;
+      }
       // padding: 12px 24px;
     }
     

@@ -1,0 +1,215 @@
+@import '../../styles/variables.scss';
+.destination-container {
+  margin: 0 54px;
+}
+
+#DestinationHero {
+  height: 672px;
+  background-image: url("../../assets/gifs/destination-video.gif");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  border-radius: 24px;
+
+  padding: 0px 420px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .image-hero {
+    width: 100%;
+  }
+  .text-area {
+    h1 {
+      text-align: center;
+      color: #fff;
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 60px;
+    }
+
+    .sub-title {
+      color: #fff;
+      text-align: center;
+
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+
+ 
+
+ 
+}
+
+
+#CountriesList{
+  padding: 120px 182px 10px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  .heading{
+    color: $tourista-blue;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .europa-column{
+    width: 198px;
+    border-right: 1px solid #E3E7EB;
+  }
+  .asia-column{
+    width: 198px;
+    border-right: 1px solid #E3E7EB;
+  }
+  .africa-column{
+    width: 198px;
+    border-right: 1px solid #E3E7EB;
+  }
+  .c-america-column{
+    width: 198px;
+    border-right: 1px solid #E3E7EB;
+  }
+  .s-america-column{
+    width: 198px;
+    border-right: 1px solid #E3E7EB;
+    
+
+  }
+
+}
+
+
+.top-destination-wrapper {
+  padding: 0 72px;
+    
+}
+#TopDestinationSection {
+  margin: 120px 0;
+  .top-destination-heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .top-destination-cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+@import "../../styles/reset.scss";
+@import "../../styles/variables.scss";
+
+
+#DestinationFeedbackSection {
+  background-image: url("../../assets/images/destinationImageBack.png");
+  width: 1519px;
+  height: 670px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 120px 0;
+
+
+
+  .destination-feedback-content {
+    background-color: #fff;
+    position: absolute;
+    top: 39%;
+    right: 76px;
+    padding: 26px 30px;
+    width: 325px;
+    height: 268px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    border-radius: 24px;
+  }
+
+  .signuture-feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .thanks-tiago {
+    color: #4a21ef;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .location {
+    max-width: 345px;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #788795;
+  }
+
+  .azores {
+    color: #5e6f7d;
+    font-weight: 700;
+  }
+
+  .crafted-by-section {
+    background-color: #fff;
+    position: absolute;
+    bottom: 56px;
+    right: 76px;
+    padding: 34px 30px;
+    width: 322px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 24px;
+
+
+    .left {
+      width: 24px;
+      height: 24px;
+      background-color: $tourista-blue;
+      border-radius: 50%;
+      padding: 18px;
+      
+    }
+
+    .crafted-by {
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      color: #788795; 
+    }
+
+    .name-and-profession {
+      display: flex;
+      gap: 4px;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+
+    .name{
+        font-weight: bold;
+    }
+  }
+}

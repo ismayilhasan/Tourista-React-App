@@ -1,0 +1,20 @@
+.europe-wrapper {
+  padding: 0 72px;
+}
+#EuropeSection {
+  margin: 120px 0;
+  .europe-heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .europe-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+}

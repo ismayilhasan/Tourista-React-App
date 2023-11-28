@@ -1,0 +1,38 @@
+@import '../../styles/reset.scss';
+@import '../../styles/variables.scss';
+.why-us-wrapper{
+  padding: 0 72px;
+}
+#WhyusSection{
+    padding-bottom: 120px;
+    .why-us-heading {
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: center;
+        padding-bottom: 40px;
+      }
+    .why-us-cards{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box{
+        width: 352px;
+        padding: 32px;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background-color: #F5F7FA;
+        border-radius: 20px;
+        img{
+            background-color: $tourista-blue;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 18px;
+        }
+    }
+}

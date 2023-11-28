@@ -1,0 +1,49 @@
+@import "../../styles/variables.scss";
+@import "../../styles/reset.scss";
+.trip-card {
+  width: 400px;
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid #e3e7eb;
+  .trip-image {
+    width: 100%;
+  }
+
+  .text-area {
+    padding: 16px 13px;
+  }
+  .name-of-trip {
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    color: #5e6f7d;
+    text-transform: uppercase;
+  }
+  .description {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .day-and-price {
+    display: flex;
+    width: 384px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px 0;
+  }
+  .day {
+    margin-left: 3px;
+  }
+  .price {
+    margin-right: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .from {
+    color: #5e6f7d;
+  }
+}

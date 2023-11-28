@@ -1,0 +1,21 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/reset.scss';
+#Categories{
+    padding: 72px 0;
+    display: flex;
+    justify-content: center;
+    .category-item{
+        width: 171px;
+        background-color: #F5F7FA;
+        color: #000;
+     
+        border-radius: 24px;
+        padding: 12px 24px;
+        text-align: center;
+    }
+}
+
+.active{
+    background-color: $tourista-blue !important;
+    color: #fff !important;
+}

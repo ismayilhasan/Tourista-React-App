@@ -1,0 +1,21 @@
+.trending-wrapper {
+  padding: 0 72px;
+    
+}
+#TrendingSection {
+  margin: 120px 0;
+  .trending-heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .trending-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+}

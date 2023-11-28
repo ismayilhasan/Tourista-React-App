@@ -1,0 +1,21 @@
+.asia-wrapper {
+    padding: 0 72px;
+  }
+  #AsiaSection {
+    margin: 120px 0;
+    .asia-heading {
+      font-family: Inter;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 48px;
+      text-align: center;
+    }
+  
+    .asia-cards {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 40px;
+    }
+  }
+  

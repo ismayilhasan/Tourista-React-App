@@ -1,0 +1,51 @@
+@import "../../../styles/reset.scss";
+@import "../../../styles/variables.scss";
+.trip-plan-cards {
+  padding: 0 72px;
+}
+#TripPlanSection {
+  padding-bottom: 120px;
+  .trip-plan-heading {
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .trip-plan-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .box {
+    width: 434px;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background-color: #f5f7fa;
+    border-radius: 20px;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h5{
+            font-weight: bold;
+        }
+        
+    }
+    img {
+      background-color: $tourista-blue;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 18px;
+    }
+  }
+}

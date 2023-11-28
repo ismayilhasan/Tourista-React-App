@@ -2,16 +2,17 @@ import React from 'react'
 import './style.scss'
 import '@fortawesome/fontawesome-free/css/all.css'; 
 import headerLogo from '../../assets/images/Logo.jpg'
+import { Link } from 'react-router-dom';
 function Header() {
   return (
     <>
     <header id='Header' className='header-container'>
         <nav className='navbar'>
             <ul className='nav-list'>
-                <li className="nav-item">About Us</li>
-                <li className="nav-item">FAQ</li>
-                <li className="nav-item">Blog</li>
-                <li className="nav-item">Contact us</li>
+                <li className="nav-item"><Link>About Us</Link></li>
+                <li className="nav-item"><Link>FAQ</Link></li>
+                <li className="nav-item"><Link>Blog</Link></li>
+                <li className="nav-item"><Link>Contact Us</Link>s</li>
             </ul>
         </nav> 
         <div className='language-section'>
@@ -32,7 +33,7 @@ function Header() {
         </div>
         <div className='buttons-area'>
             <button className='lucky-button'>I'm Feeling Lucky</button>
-            <a className='login-button'>Login</a>
+            <Link to="/login" className='login-button'>Login</Link>
         </div>
     </header>
     </>
